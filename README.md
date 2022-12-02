@@ -1,0 +1,2 @@
+# NixOSEden
+My NixOS config
