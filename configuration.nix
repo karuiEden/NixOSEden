@@ -16,7 +16,7 @@
   boot.loader.efi.efiSysMountPoint = "/boot/efi";
   #Kernel
   boot.kernelPackages = pkgs.linuxPackages_lqx;
-  boot.kernelParams = [ "mitigations=off" "nowatchdog" "raid=noautodetect" "nvidia-drm.modeset=1" "rootfstype=btrfs" "lpj=4200000" "split_lock_detect=off" ];
+  boot.kernelParams = [ "mitigations=off" "nowatchdog" "raid=noautodetect" "nvidia-drm.modeset=1" "rootfstype=btrfs" "split_lock_detect=off" ];
   networking.hostName = "NixPC"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
